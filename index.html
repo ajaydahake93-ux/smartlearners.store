@@ -21,7 +21,7 @@ src="https://www.facebook.com/tr?id=3344069362467973&ev=PageView&noscript=1"
 <!-- End Meta Pixel Code -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Learners Bundle - 14,000+ Worksheets & 50,000+ Coloring Pages</title>
+    <title>Smart Learners Bundle - 14,000+ Activity Sheets & 50,000+ Coloring Pages</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icons -->
@@ -30,100 +30,110 @@ src="https://www.facebook.com/tr?id=3344069362467973&ev=PageView&noscript=1"
     <style>
         @keyframes pulse-btn {
             0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.02); }
+            50% { transform: scale(1.03); }
         }
-        .animate-btn { animation: pulse-btn 1.5s infinite ease-in-out; }
+        .animate-btn { animation: pulse-btn 1.2s infinite ease-in-out; }
 
         /* BLINK EFFECT FOR TOP BAR */
         @keyframes blink-effect {
             0%, 100% { opacity: 1; }
-            50% { opacity: 0.4; }
+            50% { opacity: 0.5; }
         }
         .animate-blink { animation: blink-effect 1s infinite ease-in-out; }
+
+        /* FLOATING BOUNCE EFFECT */
+        @keyframes float-slow {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-6px); }
+        }
+        .animate-float { animation: float-slow 2.5s infinite ease-in-out; }
+
+        /* 100% WORKING VISIBLE SLOW BLINK EFFECT FOR HERO IMAGE */
+        @keyframes super-slow-blink {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.75; transform: scale(1.02); }
+        }
+        .animate-super-slow-blink { animation: super-slow-blink 2s infinite ease-in-out; }
     </style>
 </head>
 <body class="bg-[#FFFDF5] text-slate-800 font-sans pb-32">
 
-    <!-- 1. Top Urgent Bar (With Blink Animation Added) -->
+    <!-- 1. Top Urgent Bar -->
     <div class="bg-gradient-to-r from-red-600 via-pink-600 to-red-600 text-white text-center py-2.5 px-4 text-xs sm:text-sm font-black flex items-center justify-center gap-2 shadow-sm sticky top-0 z-40 animate-blink">
         🔥 Offer Valid Only For Today <span class="line-through opacity-80 ml-1">₹999/-</span> <span class="text-yellow-300 text-base font-black ml-1">₹199/- Only</span>
     </div>
 
+    <!-- Floating WhatsApp Support Button -->
+    <a href="https://wa.me/918605840211?text=Hi,%20I%20want%20to%20know%20more%20about%20Smart%20Learners%20Bundle%20for%20₹199" target="_blank" class="fixed bottom-20 right-4 bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl z-50 hover:bg-emerald-700 transition transform hover:scale-110 animate-float" title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
     <!-- 2. Hero Section -->
     <section class="max-w-4xl mx-auto px-4 pt-8 pb-10 text-center">
+        <!-- Trust Badges Bar -->
+        <div class="flex flex-wrap justify-center items-center gap-3 mb-6 text-xs font-bold text-slate-700">
+            <div class="bg-white px-3 py-2 rounded-xl border border-slate-200 shadow-sm flex items-center gap-1.5 transition transform hover:-translate-y-0.5 duration-200">
+                <i class="fa-solid fa-shield-halved text-emerald-600"></i> 100% Safe Checkout
+            </div>
+            <div class="bg-white px-3 py-2 rounded-xl border border-slate-200 shadow-sm flex items-center gap-1.5 transition transform hover:-translate-y-0.5 duration-200">
+                <i class="fa-solid fa-bolt text-amber-500"></i> Instant Access Guarantee
+            </div>
+            <div class="bg-white px-3 py-2 rounded-xl border border-slate-200 shadow-sm flex items-center gap-1.5 transition transform hover:-translate-y-0.5 duration-200">
+                <i class="fa-solid fa-headset text-indigo-600"></i> Support: 8605840211
+            </div>
+        </div>
+
         <!-- Offer Badge -->
-        <div class="inline-block bg-yellow-100 border border-yellow-300 text-yellow-900 font-bold px-4 py-1.5 rounded-full text-xs sm:text-sm mb-4 shadow-sm">
+        <div class="inline-block bg-yellow-100 border border-yellow-300 text-yellow-900 font-bold px-4 py-1.5 rounded-full text-xs sm:text-sm mb-4 shadow-sm transition transform hover:scale-105 duration-300">
             🔥 Offer Valid Only For Today <span class="line-through text-red-500 font-bold">₹999/-</span> <span class="text-emerald-700 font-extrabold text-base">₹199/- Only</span>
         </div>
         
         <!-- Main Headline -->
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 leading-tight mb-4 tracking-tight">
-            Turn Mobile Screen Time <br class="hidden sm:inline">Into a <span class="text-[#D97706]">Fun Learning Time!</span>
+            Turn Mobile 📵 Screen Time <br class="hidden sm:inline">Into a <span class="text-[#D97706]">Fun Learning Time!</span>
         </h1>
         
         <!-- Marathi Content -->
         <p class="text-base sm:text-xl text-slate-700 mb-4 max-w-2xl mx-auto font-semibold leading-relaxed">
-            आजकाल मुले सतत मोबाईल पाहतात आणि त्यांचा स्क्रीन टाईम खूप वाढला आहे. तुमच्या मुलाचे मोबाईलचे व्यसन कमी करा आपल्या <b class="text-slate-900">14,000+ Printable Worksheets</b> आणि <b class="text-slate-900">50,000+ Coloring Pages</b> द्वारे!
+आजकल बच्चे लगातार Mobile देखते हैं और उनका स्क्रीन Time बहुत बढ़ गया है। अपने बच्चे की Mobile की लत कम करें, 14,000+ Activity Sheets और 50,000+ Coloring Pages के माध्यम से!!
         </p>
 
-        <p class="text-sm sm:text-base text-slate-600 mb-6 font-medium">
+        <p class="text-sm sm:text-base text-slate-600 mb-4 font-medium">
             Stop mobile addiction and involve your child in brain-boosting, screen-free activities at home.
         </p>
 
         <!-- Parent Social Proof -->
-        <div class="max-w-2xl mx-auto mb-8 bg-amber-50 p-4 rounded-2xl border border-amber-200 shadow-sm">
+        <div class="max-w-2xl mx-auto mb-6 bg-amber-50 p-4 rounded-2xl border border-amber-200 shadow-sm transition hover:shadow-md duration-300">
             <p class="text-amber-900 font-bold text-xs sm:text-sm leading-snug">
                 (Over 94,478 parents have already set <span class="underline decoration-amber-500 font-extrabold">their kids up for school success</span> with our engaging printable worksheets— without the need to force them into study!)
             </p>
         </div>
 
-        <!-- 3D Product Box Banner Mockup -->
+        <!-- HERO BANNER IMAGE (banner-1.jpeg) WITH SUPER SLOW BLINK EFFECT -->
         <div class="relative max-w-md mx-auto mb-10 group">
             <div class="absolute -inset-1 bg-gradient-to-r from-yellow-400 via-amber-500 to-emerald-500 rounded-3xl blur-lg opacity-75 group-hover:opacity-100 transition duration-1000"></div>
             
-            <div class="relative bg-slate-900 text-white border-4 border-[#FFCC00] rounded-3xl overflow-hidden shadow-2xl p-6 text-center">
-                <div class="bg-red-600 text-white text-[11px] font-black uppercase tracking-widest py-1 px-4 rounded-full inline-block mb-3 shadow-md">
-                    Printable Mega Bundle
-                </div>
-                
-                <div class="bg-gradient-to-br from-indigo-900 via-purple-950 to-slate-900 border border-slate-700 rounded-2xl p-6 my-2 shadow-inner">
-                    <span class="text-xs text-yellow-400 font-black tracking-widest uppercase">100% Guaranteed Quality</span>
-                    <h3 class="text-3xl sm:text-4xl font-black text-yellow-400 tracking-tight my-1">14,000 KIDS</h3>
-                    <h3 class="text-2xl sm:text-3xl font-black text-white tracking-widest uppercase border-b border-slate-700 pb-3 mb-3">WORKSHEETS</h3>
-                    
-                    <div class="flex justify-center gap-2 text-2xl my-2">
-                        <span>📚</span><span>🎨</span><span>🧩</span><span>🔢</span>
-                    </div>
-
-                    <div class="bg-amber-400/20 border border-amber-400/40 rounded-xl p-2 mt-3">
-                        <p class="text-xs font-bold text-amber-300 uppercase">ULTIMATE MEGA BUNDLE</p>
-                        <p class="text-[10px] text-slate-300">Includes 50,000+ Coloring Pages & Parenting Bonuses</p>
-                    </div>
-                </div>
-
-                <div class="flex justify-center items-center gap-3 mt-4">
-                    <span class="text-xs text-slate-400 line-through">₹999</span>
-                    <span class="text-3xl font-black text-emerald-400">₹199/- Only</span>
-                </div>
+            <div class="relative bg-white p-2 rounded-3xl border-4 border-[#FFCC00] shadow-2xl overflow-hidden animate-super-slow-blink">
+                <img src="./banner-1.jpeg" alt="14000+ Activity Sheets & 50,000+ Coloring Pages" class="w-full h-auto rounded-2xl object-cover" loading="eager">
             </div>
         </div>
 
         <!-- Little Boy Transformation Graphic -->
-        <div class="bg-white border-2 border-amber-200 p-6 rounded-3xl shadow-xl max-w-2xl mx-auto mb-10">
+        <div class="bg-white border-2 border-amber-200 p-6 rounded-3xl shadow-xl max-w-2xl mx-auto mb-10 transition hover:shadow-2xl duration-300">
             <div class="flex flex-col sm:flex-row items-center justify-around gap-6">
-                <div class="text-center">
-                    <div class="text-5xl mb-2">📱👦</div>
+                <div class="text-center transition transform hover:scale-105 duration-300">
+                    <div class="text-5xl mb-2">📱🧑</div>
                     <span class="bg-red-100 text-red-700 text-xs font-bold px-3 py-1 rounded-full border border-red-300">
                         Addicted to Mobile
                     </span>
                 </div>
 
-                <div class="text-3xl text-amber-500 font-black rotate-90 sm:rotate-0">
+                <div class="text-3xl text-amber-500 font-black rotate-90 sm:rotate-0 animate-pulse">
                     ➔
                 </div>
 
-                <div class="text-center">
-                    <div class="text-5xl mb-2">✍️👦</div>
+                <div class="text-center transition transform hover:scale-105 duration-300">
+                    <div class="text-5xl mb-2">✍️️🧑</div>
                     <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full border border-emerald-300">
                         Loves Daily Studies
                     </span>
@@ -131,118 +141,82 @@ src="https://www.facebook.com/tr?id=3344069362467973&ev=PageView&noscript=1"
             </div>
 
             <p class="text-sm sm:text-base font-bold text-slate-800 mt-6 leading-relaxed">
-                Age-appropriate exercises and tasks that promote holistic development in children <span class="bg-amber-200 text-amber-900 px-2 py-0.5 rounded font-black">aged 2 to 7 years.</span>
+                Age-appropriate exercises and tasks that promote holistic development in childrens <span class="bg-amber-200 text-amber-900 px-2 py-0.5 rounded font-black">aged 2 to 8 years</span>
             </p>
         </div>
-
-        <!-- Pricing Card CTA -->
-        <div class="bg-white p-6 sm:p-8 rounded-3xl border-2 border-[#FFCC00] shadow-xl max-w-md mx-auto mb-10">
-            <div class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">
-                Regular Price: <span class="line-through text-red-500 font-black text-sm">₹999/-</span>
-            </div>
-            <div class="flex justify-center items-center gap-2 mb-4">
-                <span class="text-sm font-bold text-slate-700">Buy Today At Just</span>
-                <span class="text-4xl sm:text-5xl font-black text-[#059669]">₹199/-</span>
-            </div>
-
-            <a href="https://payments.cashfree.com/forms/kids-worksheets-bundle" class="animate-btn block w-full bg-[#059669] hover:bg-[#047857] text-white font-black py-4 px-6 rounded-2xl text-lg sm:text-xl shadow-lg shadow-emerald-200 transition uppercase tracking-wide">
-                <i class="fa-solid fa-cart-shopping mr-2"></i> GET KIDS WORKSHEETS NOW!
-            </a>
-            <p class="text-xs text-slate-500 mt-3 font-medium">Available at 199 INR ONLY • Instant Access</p>
-        </div>
     </section>
 
-    <!-- 3. Key Bullet Features -->
-    <section class="max-w-4xl mx-auto px-4 py-6">
-        <div class="bg-white p-6 rounded-2xl border border-amber-200 shadow-sm space-y-4">
-            <div class="flex items-start gap-3">
-                <div class="bg-emerald-100 text-[#059669] p-1.5 rounded-full mt-0.5"><i class="fa-solid fa-check text-xs"></i></div>
-                <p class="text-sm font-bold text-slate-800"><b>14,000 Printable Worksheet PDF</b> – A Smarter, Fun Way to Help Your Kids Learn!</p>
-            </div>
-            <div class="flex items-start gap-3">
-                <div class="bg-emerald-100 text-[#059669] p-1.5 rounded-full mt-0.5"><i class="fa-solid fa-check text-xs"></i></div>
-                <p class="text-sm font-bold text-slate-800"><b>Screen-Free Activities</b> to Reduce Mobile Addiction & Build Essential Skills!</p>
-            </div>
-            <div class="flex items-start gap-3">
-                <div class="bg-emerald-100 text-[#059669] p-1.5 rounded-full mt-0.5"><i class="fa-solid fa-check text-xs"></i></div>
-                <p class="text-sm font-bold text-slate-800">Over <b>2.5 Years of Research</b> to Bring You Engaging, High-Quality Learning Worksheets!</p>
-            </div>
-            <div class="flex items-start gap-3">
-                <div class="bg-emerald-100 text-[#059669] p-1.5 rounded-full mt-0.5"><i class="fa-solid fa-check text-xs"></i></div>
-                <p class="text-sm font-bold text-slate-800"><b>Engaging Handwriting Practice Sheets</b> for Clear & Confident Writing!</p>
-            </div>
-            <div class="flex items-start gap-3">
-                <div class="bg-emerald-100 text-[#059669] p-1.5 rounded-full mt-0.5"><i class="fa-solid fa-check text-xs"></i></div>
-                <p class="text-sm font-bold text-slate-800"><b>40+ Essential Skills & Easy Progress Tracking</b> – Limited Time Offer at Best Price!</p>
-            </div>
-            <div class="flex items-start gap-3">
-                <div class="bg-emerald-100 text-[#059669] p-1.5 rounded-full mt-0.5"><i class="fa-solid fa-check text-xs"></i></div>
-                <p class="text-sm font-bold text-slate-800"><b>Instant & Lifetime Access</b> to Print Anytime Anywhere (Ages 2 to 7 years).</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 4. INSIDE THIS KIDS WORKSHEET BUNDLE (WITH PREVIEWS) -->
+    <!-- 3. INSIDE THIS KIDS WORKSHEET BUNDLE -->
     <section class="max-w-4xl mx-auto px-4 py-10">
         <h2 class="text-2xl sm:text-4xl font-black text-center text-slate-900 mb-2">
-            Inside this Kids Worksheet Bundle you will discover
+            Inside This Ultimate Bundle (Kids & Adults)
         </h2>
         <p class="text-center text-slate-600 text-sm sm:text-base mb-8 font-semibold">
-            Discover the joy of Learning Through Playful Kids Worksheets!
+            Discover the joy of Learning Through Playful Activity Sheets & Creative Pages!
         </p>
 
+        <!-- SELECT OPTIONS BANNER IMAGE (banner-2.jpg) -->
+        <div class="max-w-xl mx-auto mb-10 bg-white p-3 sm:p-4 rounded-3xl border-4 border-amber-300 shadow-xl transition transform hover:scale-[1.01] duration-300">
+            <div class="rounded-2xl overflow-hidden shadow-md">
+                <img src="banner-2.jpg" alt="Smart Learners Bundle Complete Options List" class="w-full h-auto object-cover">
+            </div>
+            <p class="text-center text-xs sm:text-sm font-bold text-amber-900 mt-3 bg-amber-100 py-2 rounded-xl">
+                ✨ Everything You Need: Alphabets, Numbers, Busy Books, Adult Coloring, Mazes & More!
+            </p>
+        </div>
+       
         <!-- Visual Worksheet Previews Grid -->
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
-            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between">
+            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between transition transform hover:-translate-y-1.5 duration-300 hover:shadow-md">
                 <div class="rounded-xl overflow-hidden mb-2 bg-amber-50 h-32 flex items-center justify-center border border-amber-100">
                     <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=300&q=80" alt="Alphabet Worksheets" class="w-full h-full object-cover">
                 </div>
                 <div class="font-bold text-xs sm:text-sm text-slate-800">🔤 Alphabet Adventure</div>
             </div>
 
-            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between">
+            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between transition transform hover:-translate-y-1.5 duration-300 hover:shadow-md">
                 <div class="rounded-xl overflow-hidden mb-2 bg-amber-50 h-32 flex items-center justify-center border border-amber-100">
                     <img src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=300&q=80" alt="Match the Babies" class="w-full h-full object-cover">
                 </div>
                 <div class="font-bold text-xs sm:text-sm text-slate-800">👶 Match the Babies</div>
             </div>
 
-            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between">
+            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between transition transform hover:-translate-y-1.5 duration-300 hover:shadow-md">
                 <div class="rounded-xl overflow-hidden mb-2 bg-amber-50 h-32 flex items-center justify-center border border-amber-100">
                     <img src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?auto=format&fit=crop&w=300&q=80" alt="Count & Write" class="w-full h-full object-cover">
                 </div>
                 <div class="font-bold text-xs sm:text-sm text-slate-800">🔢 Count and Write</div>
             </div>
 
-            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between">
+            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between transition transform hover:-translate-y-1.5 duration-300 hover:shadow-md">
                 <div class="rounded-xl overflow-hidden mb-2 bg-amber-50 h-32 flex items-center justify-center border border-amber-100">
                     <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=300&q=80" alt="Maze Games" class="w-full h-full object-cover">
                 </div>
                 <div class="font-bold text-xs sm:text-sm text-slate-800">🧩 Maze Game</div>
             </div>
 
-            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between">
+            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between transition transform hover:-translate-y-1.5 duration-300 hover:shadow-md">
                 <div class="rounded-xl overflow-hidden mb-2 bg-amber-50 h-32 flex items-center justify-center border border-amber-100">
                     <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=300&q=80" alt="Learn Numbers" class="w-full h-full object-cover">
                 </div>
                 <div class="font-bold text-xs sm:text-sm text-slate-800">📖 Learn Number</div>
             </div>
 
-            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between">
+            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between transition transform hover:-translate-y-1.5 duration-300 hover:shadow-md">
                 <div class="rounded-xl overflow-hidden mb-2 bg-amber-50 h-32 flex items-center justify-center border border-amber-100">
                     <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=300&q=80" alt="Sight Words" class="w-full h-full object-cover">
                 </div>
                 <div class="font-bold text-xs sm:text-sm text-slate-800">👁️ Sight Word</div>
             </div>
 
-            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between">
+            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between transition transform hover:-translate-y-1.5 duration-300 hover:shadow-md">
                 <div class="rounded-xl overflow-hidden mb-2 bg-amber-50 h-32 flex items-center justify-center border border-amber-100">
                     <img src="https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=300&q=80" alt="Count & Circle" class="w-full h-full object-cover">
                 </div>
                 <div class="font-bold text-xs sm:text-sm text-slate-800">⭕ Count & Circle</div>
             </div>
 
-            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between">
+            <div class="bg-white p-3 rounded-2xl border-2 border-amber-200 shadow-sm text-center flex flex-col justify-between transition transform hover:-translate-y-1.5 duration-300 hover:shadow-md">
                 <div class="rounded-xl overflow-hidden mb-2 bg-amber-50 h-32 flex items-center justify-center border border-amber-100">
                     <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=300&q=80" alt="Read & Learn Words" class="w-full h-full object-cover">
                 </div>
@@ -251,52 +225,118 @@ src="https://www.facebook.com/tr?id=3344069362467973&ev=PageView&noscript=1"
         </div>
 
         <div class="text-center mb-8">
-            <p class="font-bold text-amber-700 text-base">And Many More!...</p>
-            <p class="text-xs text-slate-500 mt-1">NOTE: All worksheets are in soft copy format, and you will receive them instantly via email.</p>
+            <p class="font-bold text-amber-700 text-base">And Many More! (Including Adult Stress-Relief Coloring Pages)</p>
+            <p class="text-xs text-slate-500 mt-1">NOTE: All worksheets and activity sheets are in soft copy format, and you will receive them instantly via email.</p>
         </div>
     </section>
 
-    <!-- 5. DO YOU KNOW? (Negative Effects of Mobile Addiction) -->
-    <section class="bg-red-50 py-12 border-y border-red-200 my-8">
-        <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-3xl font-black text-center text-red-700 mb-2">DO YOU KNOW?</h2>
-            <p class="text-center text-slate-700 font-bold text-sm mb-8">Mobile Phone Addiction Can Have Many Negative Effects On Children, Including:</p>
+    <!-- Pricing Card CTA Section -->
+    <section class="max-w-4xl mx-auto px-4 py-4">
+        <div class="bg-white p-6 sm:p-8 rounded-3xl border-2 border-[#FFCC00] shadow-xl max-w-md mx-auto mb-10 transition hover:shadow-2xl duration-300">
             
-            <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                <div class="bg-white p-4 rounded-xl border border-red-100 shadow-sm">
-                    <h4 class="font-bold text-sm text-red-600 mb-1">🧠 Mental Health</h4>
-                    <p class="text-xs text-slate-600">Depression, anxiety, OCD, ADD, and psychological disorders.</p>
-                </div>
-                <div class="bg-white p-4 rounded-xl border border-red-100 shadow-sm">
-                    <h4 class="font-bold text-sm text-red-600 mb-1">🎓 Academic Performance</h4>
-                    <p class="text-xs text-slate-600">Poor grades and lower self-esteem in school.</p>
-                </div>
-                <div class="bg-white p-4 rounded-xl border border-red-100 shadow-sm">
-                    <h4 class="font-bold text-sm text-red-600 mb-1">😴 Sleep Disturbances</h4>
-                    <p class="text-xs text-slate-600">Reduced sleep quality and frequent night wakeups.</p>
-                </div>
-                <div class="bg-white p-4 rounded-xl border border-red-100 shadow-sm">
-                    <h4 class="font-bold text-sm text-red-600 mb-1">🤝 Social Skills</h4>
-                    <p class="text-xs text-slate-600">Impaired communication and slower social development.</p>
-                </div>
-                <div class="bg-white p-4 rounded-xl border border-red-100 shadow-sm">
-                    <h4 class="font-bold text-sm text-red-600 mb-1">⚡ Behavioral Problems</h4>
-                    <p class="text-xs text-slate-600">Compulsive behaviors, hyperactivity, and tantrums.</p>
-                </div>
-                <div class="bg-white p-4 rounded-xl border border-red-100 shadow-sm">
-                    <h4 class="font-bold text-sm text-red-600 mb-1">👁️ Physical Health</h4>
-                    <p class="text-xs text-slate-600">Eye strain, headaches, neck pain, and obesity.</p>
-                </div>
+            <div class="mb-4 text-center">
+                <span class="bg-amber-100 text-amber-900 font-extrabold text-xs sm:text-sm px-4 py-1.5 rounded-full border border-amber-300 inline-block shadow-sm">
+                    Inside this Bundle you will discover 14,000+ Activity Sheets & 50,000+ Coloring Pages
+                </span>
             </div>
             
-            <div class="mt-8 text-center bg-white p-5 rounded-2xl border border-amber-300 shadow-sm">
-                <p class="text-sm font-bold text-slate-800">We Help Parents Empower Their Kids with Expertly Designed Worksheets Covering Every Topic and Segment.</p>
-                <p class="text-xs text-amber-700 font-extrabold mt-1">We Believe in Play, Practice, and Perform – Unlocking Your Child’s True Potential.</p>
+            <div class="mb-6 grid grid-cols-2 gap-2.5 bg-amber-50 p-3 rounded-2xl border border-amber-200">
+                <div class="rounded-xl overflow-hidden border border-amber-300 shadow-sm bg-white"><img src="2.jpeg" alt="Worksheet 2" class="w-full h-auto object-cover"></div>
+                <div class="rounded-xl overflow-hidden border border-amber-300 shadow-sm bg-white"><img src="3.jpeg" alt="Worksheet 3" class="w-full h-auto object-cover"></div>
+                <div class="rounded-xl overflow-hidden border border-amber-300 shadow-sm bg-white"><img src="4.jpeg" alt="Worksheet 4" class="w-full h-auto object-cover"></div>
+                <div class="rounded-xl overflow-hidden border border-amber-300 shadow-sm bg-white"><img src="5.jpeg" alt="Worksheet 5" class="w-full h-auto object-cover"></div>
+                <div class="rounded-xl overflow-hidden border border-amber-300 shadow-sm bg-white"><img src="6.jpeg" alt="Worksheet 6" class="w-full h-auto object-cover"></div>
+                <div class="rounded-xl overflow-hidden border border-amber-300 shadow-sm bg-white"><img src="7.jpeg" alt="Worksheet 7" class="w-full h-auto object-cover"></div>
+                <div class="rounded-xl overflow-hidden border border-amber-300 shadow-sm bg-white"><img src="8.jpeg" alt="Worksheet 8" class="w-full h-auto object-cover"></div>
+                <div class="rounded-xl overflow-hidden border border-amber-300 shadow-sm bg-white"><img src="9.jpeg" alt="Worksheet 9" class="w-full h-auto object-cover"></div>
+                <div class="rounded-xl overflow-hidden border border-amber-300 shadow-sm bg-white"><img src="10.jpeg" alt="Worksheet 10" class="w-full h-auto object-cover"></div>
+                <div class="rounded-xl overflow-hidden border border-amber-300 shadow-sm bg-white"><img src="11.jpeg" alt="Worksheet 11" class="w-full h-auto object-cover"></div>
+            </div>
+
+            <div class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">
+                Regular Price: <span class="line-through text-red-500 font-black text-sm">₹999/-</span>
+            </div>
+            <div class="flex justify-center items-center gap-2 mb-4">
+                <span class="text-sm font-bold text-slate-700">Buy Today At Just</span>
+                <span class="text-4xl sm:text-5xl font-black text-[#059669]">₹199/-</span>
+            </div>
+
+            <a href="https://payments.cashfree.com/forms/kids-worksheets-bundle" class="animate-btn block w-full bg-[#059669] hover:bg-[#047857] text-white font-black py-4 px-6 rounded-2xl text-lg sm:text-xl shadow-lg shadow-emerald-200 transition uppercase tracking-wide text-center">
+                <i class="fa-solid fa-cart-shopping mr-2"></i> GET BUNDLE NOW!
+            </a>
+            <p class="text-xs text-slate-500 mt-3 font-medium text-center">Available at 199 INR ONLY • Instant Access</p>
+        </div>
+    </section>
+
+    <!-- Key Bullet Features -->
+    <section class="max-w-4xl mx-auto px-4 py-6">
+        <div class="bg-white p-6 rounded-2xl border border-amber-200 shadow-sm space-y-4">
+            <div class="flex items-start gap-3 transition transform hover:translate-x-1 duration-200">
+                <div class="bg-emerald-100 text-[#059669] p-1.5 rounded-full mt-0.5"><i class="fa-solid fa-check text-xs"></i></div>
+                <p class="text-sm font-bold text-slate-800"><b>14,000+ Activity Sheets & Worksheets PDF</b> – A Smarter, Fun Way to Help Your Kids Learn!</p>
+            </div>
+            <div class="flex items-start gap-3 transition transform hover:translate-x-1 duration-200">
+                <div class="bg-emerald-100 text-[#059669] p-1.5 rounded-full mt-0.5"><i class="fa-solid fa-check text-xs"></i></div>
+                <p class="text-sm font-bold text-slate-800"><b>50,000+ Coloring Pages</b> (Including Kids & Adult Stress-Relief Collections)!</p>
+            </div>
+            <div class="flex items-start gap-3 transition transform hover:translate-x-1 duration-200">
+                <div class="bg-emerald-100 text-[#059669] p-1.5 rounded-full mt-0.5"><i class="fa-solid fa-check text-xs"></i></div>
+                <p class="text-sm font-bold text-slate-800"><b>Screen-Free Activities</b> to Reduce Mobile Addiction & Build Essential Skills!</p>
+            </div>
+            <div class="flex items-start gap-3 transition transform hover:translate-x-1 duration-200">
+                <div class="bg-emerald-100 text-[#059669] p-1.5 rounded-full mt-0.5"><i class="fa-solid fa-check text-xs"></i></div>
+                <p class="text-sm font-bold text-slate-800">Over <b>2.5 Years of Research</b> to Bring You Engaging, High-Quality Learning Resources!</p>
+            </div>
+            <div class="flex items-start gap-3 transition transform hover:translate-x-1 duration-200">
+                <div class="bg-emerald-100 text-[#059669] p-1.5 rounded-full mt-0.5"><i class="fa-solid fa-check text-xs"></i></div>
+                <p class="text-sm font-bold text-slate-800"><b>Engaging Handwriting Practice Sheets</b> for Clear & Confident Writing!</p>
+            </div>
+            <div class="flex items-start gap-3 transition transform hover:translate-x-1 duration-200">
+                <div class="bg-emerald-100 text-[#059669] p-1.5 rounded-full mt-0.5"><i class="fa-solid fa-check text-xs"></i></div>
+                <p class="text-sm font-bold text-slate-800"><b>Instant & Lifetime Access</b> to Print Anytime Anywhere.</p>
             </div>
         </div>
     </section>
 
-    <!-- 6. DETAILED SUBJECT & MODULE BREAKDOWN -->
+    <!-- WHAT PARENTS SAY / TESTIMONIALS SECTION -->
+    <section class="max-w-4xl mx-auto px-4 py-8 bg-amber-50/60 rounded-3xl border border-amber-200 my-6">
+        <h2 class="text-2xl sm:text-3xl font-black text-center text-slate-900 mb-2">What Real Users Are Saying</h2>
+        <p class="text-center text-slate-600 text-sm mb-8 font-medium">See how our bundle transformed daily habits across India:</p>
+        
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm transition transform hover:-translate-y-1 duration-300">
+                <div class="text-yellow-500 text-sm mb-1">⭐⭐⭐⭐⭐</div>
+                <p class="text-xs text-slate-700 font-medium mb-3">"My son is 5 years old and he used to watch videos on mobile all day. Ever since I printed these activity sheets, he is completely engaged in coloring and math puzzles. An amazing bundle!"</p>
+                <p class="text-xs font-bold text-slate-900">- Sneha Deshmukh, Pune</p>
+            </div>
+
+            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm transition transform hover:-translate-y-1 duration-300">
+                <div class="text-yellow-500 text-sm mb-1">⭐⭐⭐⭐⭐</div>
+                <p class="text-xs text-slate-700 font-medium mb-3">"Best ₹199 I have ever spent. The adult coloring pages and kids tracing pages are very high quality. Highly recommended for everyone!"</p>
+                <p class="text-xs font-bold text-slate-900">- Rajesh Sharma, Nagpur</p>
+            </div>
+
+            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm transition transform hover:-translate-y-1 duration-300">
+                <div class="text-yellow-500 text-sm mb-1">⭐⭐⭐⭐⭐</div>
+                <p class="text-xs text-slate-700 font-medium mb-3">"These activity sheets are a lifesaver! My daughter now prefers doing her cut-and-glue activities and writing practice instead of asking for the phone. Very well organized."</p>
+                <p class="text-xs font-bold text-slate-900">- Priya Menon, Bangalore</p>
+            </div>
+
+            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm transition transform hover:-translate-y-1 duration-300">
+                <div class="text-yellow-500 text-sm mb-1">⭐⭐⭐⭐⭐</div>
+                <p class="text-xs text-slate-700 font-medium mb-3">"Incredible variety! The 50,000+ coloring pages and logic mazes kept us busy all through. Super easy to download and print at home."</p>
+                <p class="text-xs font-bold text-slate-900">- Amitabha Roy, Kolkata</p>
+            </div>
+
+            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm sm:col-span-2 lg:col-span-1 transition transform hover:-translate-y-1 duration-300">
+                <div class="text-yellow-500 text-sm mb-1">⭐⭐⭐⭐⭐</div>
+                <p class="text-xs text-slate-700 font-medium mb-3">"Great collection for both kids and adults. The PDF quality is crystal clear, and the bonus stories and parenting ebooks added immense value."</p>
+                <p class="text-xs font-bold text-slate-900">- Neha Aggarwal, Delhi</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DETAILED SUBJECT & MODULE BREAKDOWN -->
     <section class="max-w-4xl mx-auto px-4 py-8">
         <h2 class="text-2xl sm:text-3xl font-black text-center text-slate-900 mb-2">
             Detailed Bundle Module Breakdown
@@ -304,37 +344,37 @@ src="https://www.facebook.com/tr?id=3344069362467973&ev=PageView&noscript=1"
         <p class="text-center text-slate-600 text-sm mb-8 font-medium">Included in Your Access:</p>
 
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
-            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm">
+            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm transition transform hover:-translate-y-1 duration-300">
                 <div class="text-amber-600 font-black text-xl mb-1">🔤 1,300+ Pages</div>
                 <h3 class="font-bold text-base text-slate-900 mb-1">Alphabet & English</h3>
                 <p class="text-xs text-slate-600">Letter Tracing, Phonics, Upper/Lower Case, Sight Words, Read & Learn Words.</p>
             </div>
 
-            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm">
-                <div class="text-amber-600 font-black text-xl mb-1">🔢 300+ Pages</div>
-                <h3 class="font-bold text-base text-slate-900 mb-1">Number & Counting</h3>
-                <p class="text-xs text-slate-600">Count & Write, Count & Circle, Learn Numbers, Shapes & Basic Addition.</p>
+            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm transition transform hover:-translate-y-1 duration-300">
+                <div class="text-amber-600 font-black text-xl mb-1">🔢 14,000+ Pages</div>
+                <h3 class="font-bold text-base text-slate-900 mb-1">Activity Sheets & Numbers</h3>
+                <p class="text-xs text-slate-600">Count & Write, Count & Circle, Learn Numbers, Shapes & Activity Sheets.</p>
             </div>
 
-            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm">
+            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm transition transform hover:-translate-y-1 duration-300">
                 <div class="text-pink-600 font-black text-xl mb-1">🎨 50,000+ Pages</div>
-                <h3 class="font-bold text-base text-slate-900 mb-1">Colouring & Drawing</h3>
-                <p class="text-xs text-slate-600">Cartoons, Animals, Vehicles, Superheroes & Creative Art Worksheets.</p>
+                <h3 class="font-bold text-base text-slate-900 mb-1">Colouring & Drawing (Kids + Adults)</h3>
+                <p class="text-xs text-slate-600">Cartoons, Animals, Vehicles, Mandalas & Adult Stress-Relief Coloring Pages.</p>
             </div>
 
-            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm">
+            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm transition transform hover:-translate-y-1 duration-300">
                 <div class="text-amber-600 font-black text-xl mb-1">✂️ 1,000+ Pages</div>
                 <h3 class="font-bold text-base text-slate-900 mb-1">Cut & Glue Challenges</h3>
                 <p class="text-xs text-slate-600">Fine Motor Skills, Scissors Control, Match the Babies Activities.</p>
             </div>
 
-            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm">
+            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm transition transform hover:-translate-y-1 duration-300">
                 <div class="text-amber-600 font-black text-xl mb-1">🕉️ 350+ Pages</div>
                 <h3 class="font-bold text-base text-slate-900 mb-1">Hindi Master Worksheet</h3>
                 <p class="text-xs text-slate-600">Hindi Swar, Vyanjan Tracing & Basic Word Practice.</p>
             </div>
 
-            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm">
+            <div class="bg-white p-5 rounded-2xl border border-amber-200 shadow-sm transition transform hover:-translate-y-1 duration-300">
                 <div class="text-amber-600 font-black text-xl mb-1">🧩 300+ Pages</div>
                 <h3 class="font-bold text-base text-slate-900 mb-1">Maze & Logic Puzzles</h3>
                 <p class="text-xs text-slate-600">Brain Booster Mazes, Word Search & Logic Building Games.</p>
@@ -342,11 +382,11 @@ src="https://www.facebook.com/tr?id=3344069362467973&ev=PageView&noscript=1"
         </div>
     </section>
 
-    <!-- 7. UNLOCK YOUR CHILD'S BRIGHT FUTURE TODAY! & BONUSES -->
+    <!-- UNLOCK YOUR CHILD'S BRIGHT FUTURE TODAY! & BONUSES -->
     <section class="max-w-4xl mx-auto px-4 py-8">
         <div class="bg-white p-6 sm:p-8 rounded-3xl border-2 border-amber-300 shadow-lg">
             <h2 class="text-2xl sm:text-3xl font-black text-center text-slate-900 mb-2">
-                UNLOCK YOUR CHILD'S BRIGHT FUTURE TODAY!
+                UNLOCK YOUR BRIGHT FUTURE TODAY!
             </h2>
             <p class="text-center text-slate-600 text-sm mb-6">40+ Essential Skills with precise tracking at best price for a limited Time only.</p>
 
@@ -355,10 +395,9 @@ src="https://www.facebook.com/tr?id=3344069362467973&ev=PageView&noscript=1"
                     <h3 class="font-black text-base text-slate-900 mb-3 border-b pb-2">📚 Core Worksheets Included:</h3>
                     <ul class="space-y-2 text-xs font-semibold text-slate-700">
                         <li>✅ Handwriting Practice Sheets</li>
-                        <li>✅ 50,000+ Colouring and Drawing Worksheet</li>
-                        <li>✅ 1300+ Pages Worksheet for English Alphabet & Numbers</li>
+                        <li>✅ 50,000+ Colouring Pages (Kids & Adults)</li>
+                        <li>✅ 14,000+ Activity Sheets & Worksheets</li>
                         <li>✅ 350+ Page Hindi Master Worksheet</li>
-                        <li>✅ 300+ Number and Counting Worksheet</li>
                         <li>✅ 1000+ Cut and Glue Worksheet</li>
                         <li>✅ 300+ Word Search Worksheet</li>
                     </ul>
@@ -380,47 +419,51 @@ src="https://www.facebook.com/tr?id=3344069362467973&ev=PageView&noscript=1"
                 <p class="text-xs font-bold text-slate-500 uppercase">Regular Price: <span class="line-through text-red-500">₹999</span></p>
                 <p class="text-3xl font-black text-[#059669] my-1">Buy Today At Just ₹199/-</p>
                 <a href="https://payments.cashfree.com/forms/kids-worksheets-bundle" class="animate-btn inline-block w-full sm:w-auto bg-[#059669] hover:bg-[#047857] text-white font-black py-4 px-8 rounded-xl text-lg shadow-lg my-2 uppercase tracking-wide">
-                    GET KIDS WORKSHEETS NOW!
+                    GET BUNDLE NOW!
                 </a>
-                <p class="text-xs text-slate-500">Available at 199 INR ONLY</p>
             </div>
         </div>
     </section>
 
-    <!-- 8. FREQUENTLY ASKED QUESTIONS -->
+    <!-- FREQUENTLY ASKED QUESTIONS -->
     <section class="bg-white py-12 border-t border-slate-200">
         <div class="max-w-3xl mx-auto px-4">
             <h2 class="text-2xl font-black text-center text-slate-900 mb-8">Frequently Asked Questions</h2>
             <div class="space-y-3">
-                <div class="border border-slate-200 p-4 rounded-xl">
-                    <h4 class="font-bold text-xs sm:text-sm text-slate-900">Printable Worksheets are suitable for which Age group?</h4>
-                    <p class="text-xs text-slate-600 mt-1">These worksheets are scientifically designed for kids aged 2 to 7 years old (Nursery to Grade 4).</p>
+                <div class="border border-slate-200 p-4 rounded-xl transition hover:border-amber-400 duration-200">
+                    <h4 class="font-bold text-xs sm:text-sm text-slate-900">Are these activity sheets suitable for which Age group?</h4>
+                    <p class="text-xs text-slate-600 mt-1">Worksheets are designed for kids aged 2 to 7 years, and adult coloring pages are for adults.</p>
                 </div>
-                <div class="border border-slate-200 p-4 rounded-xl">
+                <div class="border border-slate-200 p-4 rounded-xl transition hover:border-amber-400 duration-200">
                     <h4 class="font-bold text-xs sm:text-sm text-slate-900">Is it a digital product (E-Book) or Physical Product?</h4>
-                    <p class="text-xs text-slate-600 mt-1">It is a digital product (1 PDF, 5 ZIP files). You will receive download links instantly on Email and WhatsApp.</p>
+                    <p class="text-xs text-slate-600 mt-1">It is a digital product. You will receive download links instantly on Email and WhatsApp.</p>
                 </div>
-                <div class="border border-slate-200 p-4 rounded-xl">
+                <div class="border border-slate-200 p-4 rounded-xl transition hover:border-amber-400 duration-200">
                     <h4 class="font-bold text-xs sm:text-sm text-slate-900">What size paper should I print?</h4>
-                    <p class="text-xs text-slate-600 mt-1">All worksheets are in standard high-quality PDF format, designed for standard A4 paper printers.</p>
+                    <p class="text-xs text-slate-600 mt-1">All files are in standard high-quality PDF format, designed for standard A4 paper printers.</p>
                 </div>
-                <div class="border border-slate-200 p-4 rounded-xl">
+                <div class="border border-slate-200 p-4 rounded-xl transition hover:border-amber-400 duration-200">
                     <h4 class="font-bold text-xs sm:text-sm text-slate-900">Can I print them with a black & white printer instead of a color printer?</h4>
                     <p class="text-xs text-slate-600 mt-1">Yes! You can print in color or grayscale (black & white) on any normal home or shop printer.</p>
                 </div>
-                <div class="border border-slate-200 p-4 rounded-xl">
+                <div class="border border-slate-200 p-4 rounded-xl transition hover:border-amber-400 duration-200">
                     <h4 class="font-bold text-xs sm:text-sm text-slate-900">Where do I download the printables?</h4>
                     <p class="text-xs text-slate-600 mt-1">Immediately upon payment, you get direct Google Drive download access links via WhatsApp and Email.</p>
+                </div>
+                <div class="border border-slate-200 p-4 rounded-xl transition hover:border-amber-400 duration-200">
+                    <h4 class="font-bold text-xs sm:text-sm text-slate-900">How can I contact customer support if I face any issues?</h4>
+                    <p class="text-xs text-slate-600 mt-1">You can directly message or call us on our official support number: <b>8605840211</b>.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 9. LEGAL FOOTER WITH WORKING POPUPS -->
+    <!-- LEGAL FOOTER WITH WORKING POPUPS -->
     <footer class="bg-slate-900 text-slate-400 text-xs py-10 px-4 text-center">
         <div class="max-w-3xl mx-auto space-y-4">
             <p class="text-white font-black text-sm">100% INSTANT DELIVERY GUARANTEE!</p>
             <p class="text-xs text-slate-400">Receive your product directly to your email within moments of purchase. Enjoy immediate access, hassle-free!</p>
+            <p class="text-slate-300 font-bold text-sm">📞 Customer Care / WhatsApp Support: 8605840211</p>
 
             <!-- Working Legal Links -->
             <div class="flex justify-center flex-wrap gap-4 text-[11px] text-slate-400 pt-3 border-t border-slate-800">
@@ -440,18 +483,11 @@ src="https://www.facebook.com/tr?id=3344069362467973&ev=PageView&noscript=1"
         </div>
     </div>
 
-    <!-- 10. LIVE 1-HOUR STICKY BOTTOM BAR -->
+    <!-- LIVE STICKY BOTTOM BAR -->
     <div class="fixed bottom-0 left-0 right-0 bg-slate-950 border-t border-slate-800 p-3 shadow-2xl z-50">
         <div class="max-w-md mx-auto flex items-center justify-between gap-3">
             <div class="text-center">
-                <span class="block text-[10px] uppercase font-bold text-yellow-400 tracking-wider">Limited Time Offer</span>
-                <div class="flex items-center gap-1 mt-0.5">
-                    <div class="bg-slate-900 border border-amber-500/50 text-yellow-400 font-mono font-black text-xs px-2 py-1 rounded" id="hours">00</div>
-                    <span class="text-xs text-slate-500 font-bold">:</span>
-                    <div class="bg-slate-900 border border-amber-500/50 text-yellow-400 font-mono font-black text-xs px-2 py-1 rounded" id="minutes">59</div>
-                    <span class="text-xs text-slate-500 font-bold">:</span>
-                    <div class="bg-slate-900 border border-amber-500/50 text-yellow-400 font-mono font-black text-xs px-2 py-1 rounded" id="seconds">59</div>
-                </div>
+                <span class="block text-[10px] uppercase font-bold text-yellow-400 tracking-wider"></span>
             </div>
 
             <a href="https://payments.cashfree.com/forms/kids-worksheets-bundle" class="animate-btn flex-1 bg-gradient-to-r from-yellow-400 to-amber-500 hover:from-yellow-500 hover:to-amber-600 text-slate-950 font-black py-3 px-4 rounded-xl text-center text-sm sm:text-base uppercase tracking-wider shadow-lg">
@@ -462,31 +498,11 @@ src="https://www.facebook.com/tr?id=3344069362467973&ev=PageView&noscript=1"
 
     <!-- JAVASCRIPT LOGIC -->
     <script>
-        let duration = 3600;
-        const hoursEl = document.getElementById('hours');
-        const minutesEl = document.getElementById('minutes');
-        const secondsEl = document.getElementById('seconds');
-
-        setInterval(() => {
-            if (duration <= 0) {
-                duration = 3600;
-            }
-            duration--;
-            
-            const hrs = Math.floor(duration / 3600);
-            const mins = Math.floor((duration % 3600) / 60);
-            const secs = duration % 60;
-
-            hoursEl.innerText = hrs < 10 ? '0' + hrs : hrs;
-            minutesEl.innerText = mins < 10 ? '0' + mins : mins;
-            secondsEl.innerText = secs < 10 ? '0' + secs : secs;
-        }, 1000);
-
         const contentMap = {
             privacy: '<h3 class="font-bold text-sm text-slate-900 border-b pb-2">Privacy Policy</h3><p>We respect your privacy. Personal information collected during payment (Name, Email, Phone Number) is strictly used for delivering your digital download links and will never be shared or sold to third parties.</p>',
-            refund: '<h3 class="font-bold text-sm text-slate-900 border-b pb-2">Refund Policy</h3><p>Due to the digital nature of instant PDF downloads, all sales are final. However, if you face any technical difficulty in downloading files, please contact our support at digitalmarketingagency1985@gmail.com for immediate assistance within 24 hours.</p>',
-            terms: '<h3 class="font-bold text-sm text-slate-900 border-b pb-2">Terms & Conditions</h3><p>By purchasing this bundle, you get a personal use license. You can print the worksheets unlimited times for home/educational use, but resale or commercial distribution of the PDF files is strictly prohibited.</p>',
-            contact: '<h3 class="font-bold text-sm text-slate-900 border-b pb-2">Contact Us</h3><p>For instant purchase assistance, payment queries, or download link issues, please contact us at:</p><p class="font-bold text-slate-900 mt-2">📧 Email: digitalmarketingagency1985@gmail.com</p><p class="mt-1">Support Available: 24×7, 365 Days a Year</p>'
+            refund: '<h3 class="font-bold text-sm text-slate-900 border-b pb-2">Refund Policy</h3><p>Due to the digital nature of instant PDF downloads, all sales are final. However, if you face any technical difficulty or need support, contact us at <b>8605840211</b> or email digitalmarketingagency1985@gmail.com for immediate assistance.</p>',
+            terms: '<h3 class="font-bold text-sm text-slate-900 border-b pb-2">Terms & Conditions</h3><p>By purchasing this bundle, you get a personal use license. You can print the files unlimited times for home/educational use, but resale or commercial distribution of the PDF files is strictly prohibited.</p>',
+            contact: '<h3 class="font-bold text-sm text-slate-900 border-b pb-2">Contact Us</h3><p>For instant purchase assistance, payment queries, or download link issues, please contact us at:</p><p class="font-bold text-slate-900 mt-2">📞 Phone / WhatsApp: 8605840211</p><p class="mt-1">📧 Email: digitalmarketingagency1985@gmail.com</p><p class="mt-1">Support Available: 24×7, 365 Days a Year</p>'
         };
 
         function openModal(type) {
@@ -495,7 +511,6 @@ src="https://www.facebook.com/tr?id=3344069362467973&ev=PageView&noscript=1"
         }
 
         function closeModal() {
-            document.getElementById('legalModal').classList.hidden = true;
             document.getElementById('legalModal').classList.add('hidden');
         }
     </script>
